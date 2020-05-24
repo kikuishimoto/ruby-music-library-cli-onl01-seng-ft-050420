@@ -48,7 +48,7 @@ class MusicLibraryController
       end
     end
   end
-  def list_songs_by_artist
+  def list_songs_by_genre
     puts "Please enter the name of a genre:"
     input = gets.strip
     if genre = genre.find_by_name(input)
